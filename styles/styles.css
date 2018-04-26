@@ -1,0 +1,45 @@
+body {
+    background-color: #336699;
+}
+
+h1, h2, h3, p {
+    font-family: 'Gugi', cursive;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Gugi', cursive;
+    color: white;
+}
+
+input, textarea, select {
+    display: block;
+    width: 450px;
+    padding: 5px;
+    font-size: 1em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+}
+
+article {
+    max-width: 450px;
+    padding: 10px;
+    display: inline-grid;
+    background-color: #19334c;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: #339999;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #236b6b;
+}
+
+form {
+    margin: 2em auto 0 auto;
+    max-width: 450px;
+}
